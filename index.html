@@ -4,101 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Pribadi Simpel</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            color: white;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            border-bottom: 1px solid white;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: black;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            border-bottom: 1px solid white;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            border-top: 1px solid white;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        h1, h2 {
-            margin: 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Efek Partikel -->
+    <div id="particles-js"></div>
+
     <header>
         <h1>Selamat Datang di Website Pribadi Saya</h1>
     </header>
+
     <nav>
         <a href="#home">Home</a>
         <a href="#tools">Tools AI</a>
         <a href="#catatan">Catatan</a>
         <a href="#kontak">Kontak</a>
     </nav>
+
     <div class="container">
         <section id="home">
             <h2>Tentang Saya</h2>
-            <p>Halo! Nama saya Ramz. Saya adalah seorang pelajar. Saya memiliki minat dalam mempelajari coding, teknologi dan hal yang berkaitan dengan kemajuan teknologi, dan saya senang berbagi pengetahuan serta pengalaman saya melalui website ini.</p>
+            <p>Halo! Nama saya Ramz. Saya adalah seorang pelajar yang tertarik dengan coding dan teknologi.</p>
         </section>
+
         <section id="tools">
             <h2>Tools AI yang Saya Gunakan</h2>
             <ul>
-                <li>ChatGPT - Untuk membantu dalam penulisan dan brainstorming.</li>
-                <li>MidJourney - Untuk menghasilkan gambar AI.</li>
-                <li>GitHub Copilot - Untuk membantu dalam pengembangan kode.</li>
-                <li>Google Bard - Untuk riset dan pencarian informasi.</li>
+                <li>ChatGPT - Untuk penulisan dan brainstorming.</li>
+                <li>MidJourney - Untuk membuat gambar AI.</li>
+                <li>GitHub Copilot - Untuk coding.</li>
+                <li>Google Bard - Untuk riset informasi.</li>
             </ul>
         </section>
+
         <section id="catatan">
             <h2>Catatan</h2>
-            <p>Di sini saya akan mencatat beberapa pemikiran, ide, atau hal-hal penting yang ingin saya ingat. Catatan ini akan diperbarui secara berkala.</p>
             <ul>
-                <li>Catatan 1: Website ini dipublikasikan pada tanggal 7 februari 2025.</li>
-                <li>Catatan 2: -</li>
+                <li>Website ini dipublikasikan pada 7 Februari 2025.</li>
             </ul>
         </section>
+
         <section id="kontak">
             <h2>Kontak</h2>
-            <p>Jika Anda ingin menghubungi saya, silakan kirim email ke <a href="mailto:email@example.com" style="color: white;">email@example.com</a> atau ikuti saya di media sosial:</p>
-            <ul>
-                <li><a href="https://instagram.com/rama01.10" style="color: white;">Instagram</a></li>
-            </ul>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p><a href="https://instagram.com/rama01.10">Instagram</a></p>
         </section>
     </div>
+
     <footer>
-        <p>&copy; 2025 Ramz. Semua hak dilindungi oleh undang-undang dan aturan yang berlaku.</p>
+        <p>&copy; 2025 Ramz. Hak cipta dilindungi.</p>
     </footer>
+
+    <!-- Script Partikel -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+
 </body>
-  </html>
+</html>
